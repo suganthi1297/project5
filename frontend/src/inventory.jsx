@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+
 function Inventory({ role, onLogout }) {
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState({
